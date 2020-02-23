@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="172" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="172" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+      <class name="learn.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:learn.RESTAPITest@286778]" name="deleteTwitter" duration-ms="0" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:learn.RESTAPITest@286778]" name="postJira" duration-ms="0" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- learn.RESTAPITest -->
+      <class name="learn.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:learn.SeleniumTest@9ba398]" name="browserAutomation" duration-ms="0" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:learn.SeleniumTest@9ba398]" name="elementsUI" duration-ms="0" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- learn.SeleniumTest -->
+      <class name="learn.AppiumTest">
+        <test-method status="PASS" signature="iOSApp()[pri:0, instance:learn.AppiumTest@bca1e0]" name="iOSApp" duration-ms="15" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSApp -->
+        <test-method status="PASS" signature="nativeAppAndroid()[pri:0, instance:learn.AppiumTest@bca1e0]" name="nativeAppAndroid" duration-ms="0" started-at="2020-02-22T17:41:19 IST" finished-at="2020-02-22T17:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+      </class> <!-- learn.AppiumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
